@@ -46,6 +46,11 @@ public class PostLikeFragment extends Fragment {
         return fragment;
     }
 
+    public static PostLikeFragment newInstance() {
+        PostLikeFragment fragment = new PostLikeFragment();
+        return fragment;
+    }
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
